@@ -57,6 +57,6 @@ echo "ro.build.fingerprint=$BUILD_FINGERPRINT"
 if [ -n "$BUILD_THUMBPRINT" ] ; then
   echo "ro.build.thumbprint=$BUILD_THUMBPRINT"
 fi
-echo "ro.proton.device=$PROTON_DEVICE"
+echo "ro.field.device=$FIELD_DEVICE"
 
 echo "# end build properties"
